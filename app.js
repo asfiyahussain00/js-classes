@@ -76,4 +76,102 @@ else{
 }
 
        }
+
+
+
+// 4 nov 2024 (monday)
+
+//  INDEX OF
+
+// let str ="hello world";
+// console.log(str);
+// console.log(str.indexOf('world'));//OUTPUT 6
+
+
+
+// let str ="hello world";
+// console.log(str);
+// console.log(str.indexOf('World')); //OUTPUT -1
+
+
+
+
+// let str ="hello world javascript world";
+// console.log(str);
+// console.log(str.lastIndexOf('world')); //OUTPUT 23
+
+
+//  TO String 
+
+// let num = 56;
+// console.log(num +2 );
+// console.log(num.toString()+2);
+
+
+
+// let bool = false;
+// console.log(bool);
+// console.log(bool.toString());
+
+
+
+// let fruit = ['apple' , 'bannana' , 'mango'];
+// console.log(fruit);
+// console.log(fruit.toString());
+
+
+
+// Concat 
+
+// let fruits = ["apple " , " mango " , "cherry " ];
+// let vegies = ["patato " , 'onion ' , "tomato "];
+// let packFood = ['nuggets ' , "fries "];
+// console.log(fruits+ vegies + packFood);
+// let list  = fruits.concat(vegies , packFood) ;
+// console.log(list);
+
+
+
+
+
+
+
+// Greeting APP
+
+// let greet = "Assalam O Alikum ";
+// let name1 = prompt("Enter Your Name:");
+// let gender = prompt("Enter your Gender:");
+// gender = gender.toLowerCase();
+
+// if (gender === 'female') {
+//     document.write(greet.concat(" madam ", name1));
+// } else if (gender === 'male') {
+//     document.write(greet.concat(" sir ", name1));
+// } else {
+//     document.write(" invalid ");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
