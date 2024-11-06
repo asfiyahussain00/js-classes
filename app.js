@@ -152,7 +152,86 @@ else{
 // }
 
 
+6 Nov 2024 wednesday
 
+// Replace
+// let str = "javascript"
+// str[0] ='G'
+// console.log(str.replace("j" , "G"));
+
+// let text = "Replace in Js The `replace` method*** in## JavaScript is used to create** a new string by replacing** the first"
+// console.log(text);
+// console.log(text.replace("JavaScript" ," "));
+
+
+
+// replace all
+// let text = "In ###JavaScript, `Math.round() ` is a method that rounds a number to the nearest integer JavaScript. If thefractional part ###of the number is 0.5 ***orgreater JavaScript, it rounds up to the next integer; if it's less than 0.5, it*** rounds down.JavaScript"
+// console.log(text);
+// text = text.replaceAll("Javascript" , " ")
+// let text1 =  text.replaceAll("###" , " "  );
+// console.log(text1);
+// let text2 = text1.replaceAll("***" , "")
+// console.log(text2);
+
+
+
+
+//  gobal replace
+//  let text = "The cat sat on the mat. The cat is happy.";
+//  let newText = text.replace(/cat/g, "dog");
+//  console.log(newText);
+
+
+ 
+// Math.round
+
+// console.log(Math.round(4.7)); // 5 output
+// console.log(Math.round(4.2)); // 4 output
+// console.log(Math.round(4.5)); // 5 output
+
+
+// let amount = 25.73
+// let  roundBill =Math.round(amount);
+// console.log(roundBill);
+
+
+// let amount = 25.4
+// let  roundBill =Math.round(amount);
+// console.log(roundBill);
+
+
+
+// console.log(Math.round(-4.1)); // -4 output
+// console.log(Math.round(-4.5)); // -4 output
+
+
+
+
+// let originalPrice = 49.99;
+// let discountPercentage = 15;
+// let discountAmount = (originalPrice * discountPercentage) / 100;
+// let roundedDiscount = Math.round(discountAmount);
+// console.log(roundedDiscount);
+
+
+
+// Math.Ceil
+// console.log(Math.ceil(4.6));  //output 5
+// console.log(Math.ceil(4.1)); //output 5
+ 
+
+// let items =17;
+// let boxCapacity= 10
+// let boxesNeeded =Math.ceil(items/boxes);
+// console.log(boxesNeeded)
+
+
+
+//email gerenter
+// let userName = prompt("Enter your Name");
+// let genEmail = userName + userName.length + "@gmail.com";
+// console.log("Here is your email " + genEmail);
 
 
 
