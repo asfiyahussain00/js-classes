@@ -235,6 +235,32 @@ else{
 
 
 
+8 Nov 2024 Friday
+// Math round
+console.log(Math.round(-4.7));
+
+// Math Ceil
+console.log(Math.ceil(-4.7))
+
+// Math floor
+console.log(Math.floor(-4.7));
+
+// Math floor
+console.log(Math.random());
+
+// Math random
+
+// let diceRoll = Math.floor(Math.random() *5) + 1; 
+// document.write(diceRoll);
+
+// let Tail =  Math.random()  < 0.5 ? "Head " : "Tail"
+// document.write( " Coss" ,Tail); 
+
+
+let color = ['red', 'blue', 'green', 'yellow'];
+let randomColor = color[Math.floor(Math.random() * color.length)];
+document.write(randomColor);
+
 
 
 
