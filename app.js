@@ -261,7 +261,20 @@ let color = ['red', 'blue', 'green', 'yellow'];
 let randomColor = color[Math.floor(Math.random() * color.length)];
 document.write(randomColor);
 
+11 Nov 2024  Monday
 
+//  Password Generater
+
+
+// let characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?'
+// let length = 7;
+// let password = "";
+// for(i = 0 ; i < length ; i++) {
+//   let randomChar = characters[Math.floor(Math.random() *characters.length)]
+//     password += randomChar
+
+// }
+// document.write("Your Password is  : " + password + "<br>" )
 
 
 
