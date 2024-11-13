@@ -24,9 +24,6 @@
 // }
 
 
-
-
-
 // let day = prompt("What day is today!");
 // day = day.toUpperCase();
 // if ( day=='MONDAY' ||day=='TUESDAY' || day=='WEDNESDAY' ||day=='THURSDAY' || day=='FRIDAY'){
@@ -47,8 +44,6 @@
 // }
 
 
-
-
 // var str = prompt("Enter some text"); 
 //  var numChars = str.length;
 //  document.write(str , numChars)
@@ -60,10 +55,6 @@
 
 // break;
 //  }
-
-
-
-
 
   var str = prompt("Enter some text");
   var numChars = str.length;
@@ -92,8 +83,6 @@ else{
 // let str ="hello world";
 // console.log(str);
 // console.log(str.indexOf('World')); //OUTPUT -1
-
-
 
 
 // let str ="hello world javascript world";
@@ -129,11 +118,6 @@ else{
 // console.log(fruits+ vegies + packFood);
 // let list  = fruits.concat(vegies , packFood) ;
 // console.log(list);
-
-
-
-
-
 
 
 // Greeting APP
@@ -175,8 +159,6 @@ else{
 // console.log(text2);
 
 
-
-
 //  gobal replace
 //  let text = "The cat sat on the mat. The cat is happy.";
 //  let newText = text.replace(/cat/g, "dog");
@@ -201,11 +183,8 @@ else{
 // console.log(roundBill);
 
 
-
 // console.log(Math.round(-4.1)); // -4 output
 // console.log(Math.round(-4.5)); // -4 output
-
-
 
 
 // let originalPrice = 49.99;
@@ -316,7 +295,6 @@ document.write(randomColor);
 // document.write(result);
 
 
-
 // praseInt
 
 // let num1 = parseInt(prompt("Enter First Number"));
@@ -337,9 +315,6 @@ document.write(randomColor);
 // console.log(num1); // Output: 3.14
 
 
-
-
-
 // Redix
 
 // const decimalString = "123";
@@ -355,21 +330,3 @@ document.write(randomColor);
 // const hexString = "1A";
 // const hexNumber = parseInt(hexString, 16);
 // console.log(hexNumber); // Output: 26
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
