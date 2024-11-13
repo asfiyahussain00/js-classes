@@ -236,6 +236,7 @@ else{
 
 
 8 Nov 2024 Friday
+
 // Math round
 console.log(Math.round(-4.7));
 
@@ -275,6 +276,85 @@ document.write(randomColor);
 
 // }
 // document.write("Your Password is  : " + password + "<br>" )
+
+
+13 nov 2024
+
+// Password Generater
+// let password = '';
+// for(let i = 0 ; i < 12 ; i++){
+// password += String.fromCharCode(Math.floor(Math.random() *62 +48))
+
+//  }
+//  document.write(password); 
+
+
+
+// //  Color Generater
+//  let letters = '0123456789ABCDEF';
+//  let color = '#';
+//  for (let i = 0; i < 6; i++) {
+//    color += letters[Math.floor(Math.random() * 16)];
+//  }
+//  document.body.style.backgroundColor = color;
+
+
+
+//  Converting strings to integers and decimals
+
+// let num1 = +prompt("Enter First Number");
+// let num2 = +prompt("Enter Second Number")
+
+// let  result = num1+num2
+// document.write(result);
+
+
+// let num1 = +"78"
+// let num2 = 2
+
+// let  result = num1+num2
+// document.write(result);
+
+
+
+// praseInt
+
+// let num1 = parseInt(prompt("Enter First Number"));
+// let num2 = parseInt(prompt("Enter Second Number"));
+
+// let  result = num1+num2
+// document.write(result);
+
+
+// let num = parseInt("2");
+// let  result = num+6
+// document.write(result);
+
+
+// praseFloat
+
+// let num1 = parseFloat("3.14");
+// console.log(num1); // Output: 3.14
+
+
+
+
+
+// Redix
+
+// const decimalString = "123";
+// const decimalNumber = parseInt(decimalString, 10);
+// console.log(decimalNumber); // Output: 123
+
+
+// const binaryString = "1010";
+// const binaryNumber = parseInt(binaryString, 2);
+// console.log(binaryNumber); // Output: 10
+
+
+// const hexString = "1A";
+// const hexNumber = parseInt(hexString, 16);
+// console.log(hexNumber); // Output: 26
 
 
 
