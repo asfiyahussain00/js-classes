@@ -330,3 +330,50 @@ document.write(randomColor);
 // const hexString = "1A";
 // const hexNumber = parseInt(hexString, 16);
 // console.log(hexNumber); // Output: 26
+
+
+15 Nov 2024 Friday 
+//  Convert String into Number
+
+let num = "134";
+console.log(num + 2); //output 1342
+console.log(Number(num) + 2); // output 136
+
+
+console.log(Number(false)); // 0
+console.log(Number(true)); // 1
+console.log(Number()) ;//0
+console.log(Number("123ab")); //NAN
+console.log(Number("123")); //123
+
+
+ // parse Float
+let num1 = parseFloat("10.33");
+console.log(num1);  // 10.33
+
+let num2 = parseFloat("34 45 66");
+console.log(num2); // 34
+
+let num6 = parseFloat("He was 40");
+console.log(num6); //NAN
+
+
+//praseInt
+ let num3 = parseInt("10.00");
+ console.log(num3); // 10
+
+let num4 = parseInt("34 45 66");
+console.log(num4); // 34
+
+
+let num5 =parseInt("He was 40");
+console.log(num5); //NAN
+
+
+// To Fixed 
+let decimal = 45.5678;
+console.log(decimal); //45.5678
+console.log(decimal.toFixed()); //46
+console.log(decimal.toFixed(2)); //45.56
+
+
