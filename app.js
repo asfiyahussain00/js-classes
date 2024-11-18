@@ -377,3 +377,60 @@ console.log(decimal.toFixed()); //46
 console.log(decimal.toFixed(2)); //45.56
 
 
+18 Nov 2024 Monday
+
+//  Current Date
+let date = new Date();
+console.log(date);
+
+// Get Day
+let day = new Date();
+console.log(day.getDay());  
+
+//  Get Date
+let date1 = new Date();
+console.log(date1.getDate());
+
+//  Get Date
+let dayName = ["Sun" , " Mon" , 'Tues' , " thurs" , 'fri' , ' satur'];
+let now = new Date().getDay(); 
+console.log(dayName[now]);
+
+
+// Random color Genater
+
+let color = ['red' , 'blue' , 'green'];
+let background = " ";
+for (let i = 0; i < 1; i++) {
+  background += color[Math.floor(Math.random() * color.length)];
+}
+document.body.style.backgroundColor = background;
+
+
+// Random color Genater
+let colors = ['pink', 'skyblue', 'purple'];
+let randomColor = colors[Math.floor(Math.random() * colors.length)];
+document.body.style.backgroundColor = randomColor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
