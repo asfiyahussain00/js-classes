@@ -415,11 +415,30 @@ document.body.style.backgroundColor = randomColor;
 
 
 
+// 27 nov 2024 wednesday
+
+Function
+
+function sayHello(){
+document.write("Hello World");
+}
+
+sayHello();
+
+function add (sum1 , sum2 ) {
+    return sum1 + sum2
+
+}
+document.write(add(6 ,  6));
 
 
+function table(num) {
+    for (let i = 1; i <= 10; i++) {
+        document.write(num + " x " + i + " = " + (num * i) + "<br>");
+    }
+}
 
-
-
+table(5);
 
 
 
