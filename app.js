@@ -440,7 +440,69 @@ function table(num) {
 
 table(5);
 
+//  29 Nov 2024 Friday
+//  Local Variable
+function myFunction() {
+    let localVariable = "I'm local!";
+    console.log(localVariable); // Output: "I'm local!"
+  }
 
+
+
+//  Global Varible
+  let globalVariable = "I'm global!";
+  function myFunction() {
+    console.log(globalVariable); // Output: "I'm global!"
+  }
+  console.log(globalVariable); // Output: "I'm global!"
+
+
+
+// switch Case
+switch (new Date().getDay()) {
+    case 1:
+        document.write("Monday");
+        break;
+        case 2:
+            document.write("Tuesday");
+            break;
+            case 3:
+                document.write("Wednesday");
+                break;
+                case 4:
+                    document.write("Thursday");
+                    break;
+                    case 5:
+                        document.write("Friday");
+                        break;
+                        case 6:
+                            document.write("Saturday");
+                            break;
+                            case 0:
+                                document.write("Sunday");
+                                break;
+
+    default:
+        document.write("Invalid Day")
+        break;
+}
+
+
+let favFood = prompt("Enter Your Fav Food \n ,\n ,fast food \n Veggies \n Fruit" )
+switch (favFood) {
+    case 1:
+        document.write("Fast Food ")
+        break;
+        case 2:
+            document.write("Veggies")
+            break;
+            case 3:
+                document.write("Fruite")
+                break;
+
+    default:
+        break;
+}
 
 
 
