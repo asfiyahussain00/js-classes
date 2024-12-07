@@ -1,72 +1,120 @@
-
-// let str = "Saylani Mass It Traning";
-//  console.log(str);
-// str = str.slice(0,7);
-// console.log(str); //saylani
+Nested Lopp
 
 
+let firstName = [" Asfiya " ,"fizza " , "ayesha " , "amna " , "anaya "];
+let lastName =["hussain" , "pervaiz" , "hameed" , "dawood" , "hasnain"];
+ let fullName =[];
+ for(let i =0 ; i<firstName.length; i++){
+    for(let j=0 ;j < lastName.length ; j++){
+        fullName.push(firstName[i]+lastName[j] +"<br>");
+    }
+ }
+ 
+ document.write(fullName.join(" "));
 
+var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "]; 
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+for (var i = 0; i < firstNames.length; i++) { 
+for (var j = 0; j < lastNames.length; j++) {
+fullNames.push(firstNames[i] + lastNames[j] + "<br>");
 
-// let str = "Saylani Mass It Traning";
-// console.log(str);
-// console.log(str.slice(8,15));
+}
+}
 
-
-
-// let day = prompt("What day is today!");
-//  day = day.toLowerCase();
-// if ( day=='monday' ||day=='tuesday' || day=='wednesday' ||day=='thursday' || day=='friday'){
-//     console.log("Working Day")
+for (let k = 0; k < fullNames.length; k++) {
+    document.write(fullNames[k] +  "<br>");
+  
     
-// }
-// else if(day=='saturday' || day=='sunday'){
-//     console.log('Weekened day')
-// }
+    }
+  
+
+let fruit = ['mango' , 'banna' , 'cheery']
+document.write(fruit.join(" "));
+document.write(fruit.join( ));
+
+document.write("ITEMS " + ": " + "PRICE " +"<br>");
+document.write("============" +"<br>")
+
+let shoppingItem = ["Heels ", "Purse", "Jewellery", "Outfits", "Rings", "shoes"];
+let price = [ 2000 ,  3000 , 4000 , 5000 , 1000 , 4000];
+
+for (let i = 0; i < shoppingItem.length; i++) {
+    document.write(shoppingItem[i] + " : " + price[i] + "<br>");
+}
+
+document.write("Total : "  ,  2000 + 3000 + 4000+ 5000 +1000+4000);
 
 
-// let day = prompt("What day is today!");
-// day = day.toUpperCase();
-// if ( day=='MONDAY' ||day=='TUESDAY' || day=='WEDNESDAY' ||day=='THURSDAY' || day=='FRIDAY'){
-//     console.log("Working Day")
+
+let str = "Saylani Mass It Traning";
+ console.log(str);
+str = str.slice(0,7);
+console.log(str); //saylani
+
+
+
+
+let str = "Saylani Mass It Traning";
+console.log(str);
+console.log(str.slice(8,15));
+
+
+
+let day = prompt("What day is today!");
+ day = day.toLowerCase();
+if ( day=='monday' ||day=='tuesday' || day=='wednesday' ||day=='thursday' || day=='friday'){
+    console.log("Working Day")
     
-// }
-// else if(day=='SATURDAY' || day=='SUNDAY'){
-//     console.log('Weekened day')
-// }
+}
+else if(day=='saturday' || day=='sunday'){
+    console.log('Weekened day')
+}
+
+
+let day = prompt("What day is today!");
+day = day.toUpperCase();
+if ( day=='MONDAY' ||day=='TUESDAY' || day=='WEDNESDAY' ||day=='THURSDAY' || day=='FRIDAY'){
+    console.log("Working Day")
+    
+}
+else if(day=='SATURDAY' || day=='SUNDAY'){
+    console.log('Weekened day')
+}
 
 
 
-// let month = prompt("enter the month name");
-// let charInMonth = month.length;
-// console.log(charInMonth);
-// if(charInMonth>3 ){
-//     console.log(month.slice(0,3));
-// }
+let month = prompt("enter the month name");
+let charInMonth = month.length;
+console.log(charInMonth);
+if(charInMonth>3 ){
+    console.log(month.slice(0,3));
+}
+
+Length
+var str = prompt("Enter some text"); 
+ var numChars = str.length;
+ document.write(str , numChars)
+
+ for (var i = 0; i < numChars; i++) { 
+if (str.slice(i, i + 2))
+ {    document.write(str);  }
 
 
-// var str = prompt("Enter some text"); 
-//  var numChars = str.length;
-//  document.write(str , numChars)
-
-//  for (var i = 0; i < numChars; i++) { 
-// if (str.slice(i, i + 2))
-//  {    document.write(str);  }
-
-
-// break;
-//  }
+break;
+ }
 
   var str = prompt("Enter some text");
   var numChars = str.length;
-   for (var i = 0; i < numChars; i++) { 
-       if (str.slice(i, i + 2) === " ") {   
-          alert("No double spaces!"); 
-             break; }
-else{
-    alert("double space")
-}
+//    for (var i = 0; i < numChars; i++) { 
+//        if (str.slice(i, i + 2) === " ") {   
+//           alert("No double spaces!"); 
+//              break; }
+// else{
+//     alert("double space")
+// }
 
-       }
+//        }
 
 
 
@@ -74,74 +122,74 @@ else{
 
 //  INDEX OF
 
-// let str ="hello world";
-// console.log(str);
-// console.log(str.indexOf('world'));//OUTPUT 6
+// / let str ="hello world";
+// // console.log(str);
+// // console.log(str.indexOf('world'));//OUTPUT 6
 
 
 
-// let str ="hello world";
-// console.log(str);
-// console.log(str.indexOf('World')); //OUTPUT -1
+// // let str ="hello world";
+// // console.log(str);
+// // console.log(str.indexOf('World')); //OUTPUT -1
 
 
-// let str ="hello world javascript world";
-// console.log(str);
-// console.log(str.lastIndexOf('world')); //OUTPUT 23
+// // let str ="hello world javascript world";
+// // console.log(str);
+// // console.log(str.lastIndexOf('world')); //OUTPUT 23
 
 
-//  TO String 
+// //  TO String 
 
-// let num = 56;
-// console.log(num +2 );
-// console.log(num.toString()+2);
-
-
-
-// let bool = false;
-// console.log(bool);
-// console.log(bool.toString());
+// // let num = 56;
+// // console.log(num +2 );
+// // console.log(num.toString()+2);
 
 
 
-// let fruit = ['apple' , 'bannana' , 'mango'];
-// console.log(fruit);
-// console.log(fruit.toString());
+// // let bool = false;
+// // console.log(bool);
+// // console.log(bool.toString());
 
 
 
-// Concat 
-
-// let fruits = ["apple " , " mango " , "cherry " ];
-// let vegies = ["patato " , 'onion ' , "tomato "];
-// let packFood = ['nuggets ' , "fries "];
-// console.log(fruits+ vegies + packFood);
-// let list  = fruits.concat(vegies , packFood) ;
-// console.log(list);
+// // let fruit = ['apple' , 'bannana' , 'mango'];
+// // console.log(fruit);
+// // console.log(fruit.toString());
 
 
-// Greeting APP
 
-// let greet = "Assalam O Alikum ";
-// let name1 = prompt("Enter Your Name:");
-// let gender = prompt("Enter your Gender:");
-// gender = gender.toLowerCase();
+// // Concat 
 
-// if (gender === 'female') {
-//     document.write(greet.concat(" madam ", name1));
-// } else if (gender === 'male') {
-//     document.write(greet.concat(" sir ", name1));
-// } else {
-//     document.write(" invalid ");
-// }
+// // let fruits = ["apple " , " mango " , "cherry " ];
+// // let vegies = ["patato " , 'onion ' , "tomato "];
+// // let packFood = ['nuggets ' , "fries "];
+// // console.log(fruits+ vegies + packFood);
+// // let list  = fruits.concat(vegies , packFood) ;
+// // console.log(list);
 
 
-6 Nov 2024 wednesday
+// // Greeting APP
 
-// Replace
-// let str = "javascript"
-// str[0] ='G'
-// console.log(str.replace("j" , "G"));
+// // let greet = "Assalam O Alikum ";
+// // let name1 = prompt("Enter Your Name:");
+// // let gender = prompt("Enter your Gender:");
+// // gender = gender.toLowerCase();
+
+// // if (gender === 'female') {
+// //     document.write(greet.concat(" madam ", name1));
+// // } else if (gender === 'male') {
+// //     document.write(greet.concat(" sir ", name1));
+// // } else {
+// //     document.write(" invalid ");
+// // }
+
+
+// 6 Nov 2024 wednesday
+
+// // Replace
+// // let str = "javascript"
+// // str[0] ='G'
+// // console.log(str.replace("j" , "G"));
 
 // let text = "Replace in Js The `replace` method*** in## JavaScript is used to create** a new string by replacing** the first"
 // console.log(text);
