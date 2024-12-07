@@ -1,111 +1,219 @@
-Nested Lopp
+// array
+// let arry =[1,2,3,4,5,6,7,8,9,10];
+// console.log(arry[0]);
 
 
-let firstName = [" Asfiya " ,"fizza " , "ayesha " , "amna " , "anaya "];
-let lastName =["hussain" , "pervaiz" , "hameed" , "dawood" , "hasnain"];
- let fullName =[];
- for(let i =0 ; i<firstName.length; i++){
-    for(let j=0 ;j < lastName.length ; j++){
-        fullName.push(firstName[i]+lastName[j] +"<br>");
-    }
- }
+
+//  let student_data =["Asfiya" , "hussain" , "female" ,1234  ]
+// //  console.log(student_data[0] , student_data[3]);
+//  student_data.push("web and app development");
+// // console.log(student_data)
+// // console.log(student_data[4]);
+// // console.log(student_data.length);
+
+
+
+
+// let age =[]
+// age[0]=23;
+// age[1]=26;
+// age[2]=27;
+// age[3]=30
+// console.log(age[2]);
+
+
+//lenght to know array value
+// let num =[1,2,3,4,5,6];
+// document.write(num.length);
+
+//push : add value in last of array
+// let num =[1,2,3,4,5];
+// (num.push(6,7));
+// document.write(num);
+
+
+
+//pop : to remove last  value
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.pop();
+// console.log(fruits);
+
+
+
+// let student_data =["Asfiya" , "hussain" , "female" ,1234  ];
+// (student_data.pop());
+// console.log(student_data);
+
+
+//shift Remove first  value in array
+// let num =[1 , 2 , 3 , 4 , 5];
+// num.shift();
+// console.log(num);
+
+
+//unshift add value in start of array
+// let num =[2,3,4,5,6,];
+// num.unshift(1);
+// console.log(num)
+
+//Remove item
+//Splice
+// let cars = [ 'audi' , 'BMW', 'Bigo' , 'Civic' , 'prado'];
+// cars.splice(2,1);
+// console.log(cars);
+
+
+
+// let student = ['asfiya' , 'web development' , 18 , 'fizza' ,1256 ];
+// student.splice(3 , 1);
+// console.log(student);
+
+
+// let fruit =['apple' , 'mango' , 'orange' , 'kiwi' ,'watermelon'];
+// let remove = fruit.splice(3,1);
+// console.log(remove);
+// console.log(fruit);
+
  
- document.write(fullName.join(" "));
+//Add item
 
-var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "]; 
-var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
-var fullNames = [];
-for (var i = 0; i < firstNames.length; i++) { 
-for (var j = 0; j < lastNames.length; j++) {
-fullNames.push(firstNames[i] + lastNames[j] + "<br>");
+//  let fruit =['apple' , 'mango' , 'orange' , 'kiwi' ,'watermelon'];
+//  fruit.splice(2,1 , 'stawberry');
+//  console.log(fruit);
 
-}
-}
+//slice updating array
+//  let animals = ['fly' , 'dog' , 'cat' ,'fox' , 'wolf'];
+//  let pet = animals.slice(1,3);
+//  console.log(pet);
 
-for (let k = 0; k < fullNames.length; k++) {
-    document.write(fullNames[k] +  "<br>");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Nested Lopp
+
+// let firstName = [" Asfiya " ,"fizza " , "ayesha " , "amna " , "anaya "];
+// let lastName =["hussain" , "pervaiz" , "hameed" , "dawood" , "hasnain"];
+//  let fullName =[];
+//  for(let i =0 ; i<firstName.length; i++){
+//     for(let j=0 ;j < lastName.length ; j++){
+//         fullName.push(firstName[i]+lastName[j] +"<br>");
+//     }
+//  }
+ 
+//  document.write(fullName.join(" "));
+
+// var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "]; 
+// var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// var fullNames = [];
+// for (var i = 0; i < firstNames.length; i++) { 
+// for (var j = 0; j < lastNames.length; j++) {
+// fullNames.push(firstNames[i] + lastNames[j] + "<br>");
+
+// }
+// }
+
+// for (let k = 0; k < fullNames.length; k++) {
+//     document.write(fullNames[k] +  "<br>");
   
     
-    }
+//     }
   
 
-let fruit = ['mango' , 'banna' , 'cheery']
-document.write(fruit.join(" "));
-document.write(fruit.join( ));
+// let fruit = ['mango' , 'banna' , 'cheery']
+// document.write(fruit.join(" "));
+// document.write(fruit.join( ));
 
-document.write("ITEMS " + ": " + "PRICE " +"<br>");
-document.write("============" +"<br>")
+// document.write("ITEMS " + ": " + "PRICE " +"<br>");
+// document.write("============" +"<br>")
 
-let shoppingItem = ["Heels ", "Purse", "Jewellery", "Outfits", "Rings", "shoes"];
-let price = [ 2000 ,  3000 , 4000 , 5000 , 1000 , 4000];
+// let shoppingItem = ["Heels ", "Purse", "Jewellery", "Outfits", "Rings", "shoes"];
+// let price = [ 2000 ,  3000 , 4000 , 5000 , 1000 , 4000];
 
-for (let i = 0; i < shoppingItem.length; i++) {
-    document.write(shoppingItem[i] + " : " + price[i] + "<br>");
-}
+// for (let i = 0; i < shoppingItem.length; i++) {
+//     document.write(shoppingItem[i] + " : " + price[i] + "<br>");
+// }
 
-document.write("Total : "  ,  2000 + 3000 + 4000+ 5000 +1000+4000);
-
-
-
-let str = "Saylani Mass It Traning";
- console.log(str);
-str = str.slice(0,7);
-console.log(str); //saylani
+// document.write("Total : "  ,  2000 + 3000 + 4000+ 5000 +1000+4000);
 
 
 
+// let str = "Saylani Mass It Traning";
+//  console.log(str);
+// str = str.slice(0,7);
+// console.log(str); //saylani
 
-let str = "Saylani Mass It Traning";
-console.log(str);
-console.log(str.slice(8,15));
 
 
 
-let day = prompt("What day is today!");
- day = day.toLowerCase();
-if ( day=='monday' ||day=='tuesday' || day=='wednesday' ||day=='thursday' || day=='friday'){
-    console.log("Working Day")
+// let str = "Saylani Mass It Traning";
+// console.log(str);
+// console.log(str.slice(8,15));
+
+
+
+// let day = prompt("What day is today!");
+//  day = day.toLowerCase();
+// if ( day=='monday' ||day=='tuesday' || day=='wednesday' ||day=='thursday' || day=='friday'){
+//     console.log("Working Day")
     
-}
-else if(day=='saturday' || day=='sunday'){
-    console.log('Weekened day')
-}
+// }
+// else if(day=='saturday' || day=='sunday'){
+//     console.log('Weekened day')
+// }
 
 
-let day = prompt("What day is today!");
-day = day.toUpperCase();
-if ( day=='MONDAY' ||day=='TUESDAY' || day=='WEDNESDAY' ||day=='THURSDAY' || day=='FRIDAY'){
-    console.log("Working Day")
+// let day = prompt("What day is today!");
+// day = day.toUpperCase();
+// if ( day=='MONDAY' ||day=='TUESDAY' || day=='WEDNESDAY' ||day=='THURSDAY' || day=='FRIDAY'){
+//     console.log("Working Day")
     
-}
-else if(day=='SATURDAY' || day=='SUNDAY'){
-    console.log('Weekened day')
-}
+// }
+// else if(day=='SATURDAY' || day=='SUNDAY'){
+//     console.log('Weekened day')
+// }
 
 
 
-let month = prompt("enter the month name");
-let charInMonth = month.length;
-console.log(charInMonth);
-if(charInMonth>3 ){
-    console.log(month.slice(0,3));
-}
+// let month = prompt("enter the month name");
+// let charInMonth = month.length;
+// console.log(charInMonth);
+// if(charInMonth>3 ){
+//     console.log(month.slice(0,3));
+// }
 
-Length
-var str = prompt("Enter some text"); 
- var numChars = str.length;
- document.write(str , numChars)
+// Length
+// var str = prompt("Enter some text"); 
+//  var numChars = str.length;
+//  document.write(str , numChars)
 
- for (var i = 0; i < numChars; i++) { 
-if (str.slice(i, i + 2))
- {    document.write(str);  }
+//  for (var i = 0; i < numChars; i++) { 
+// if (str.slice(i, i + 2))
+//  {    document.write(str);  }
 
 
-break;
- }
+// break;
+//  }
 
-  var str = prompt("Enter some text");
-  var numChars = str.length;
+//   var str = prompt("Enter some text");
+//   var numChars = str.length;
 //    for (var i = 0; i < numChars; i++) { 
 //        if (str.slice(i, i + 2) === " ") {   
 //           alert("No double spaces!"); 
@@ -262,19 +370,19 @@ break;
 
 
 
-8 Nov 2024 Friday
+// 8 Nov 2024 Friday
 
-// Math round
-console.log(Math.round(-4.7));
+// // Math round
+// console.log(Math.round(-4.7));
 
-// Math Ceil
-console.log(Math.ceil(-4.7))
+// // Math Ceil
+// console.log(Math.ceil(-4.7))
 
-// Math floor
-console.log(Math.floor(-4.7));
+// // Math floor
+// console.log(Math.floor(-4.7));
 
-// Math floor
-console.log(Math.random());
+// // Math floor
+// console.log(Math.random());
 
 // Math random
 
@@ -285,11 +393,11 @@ console.log(Math.random());
 // document.write( " Coss" ,Tail); 
 
 
-let color = ['red', 'blue', 'green', 'yellow'];
-let randomColor = color[Math.floor(Math.random() * color.length)];
-document.write(randomColor);
+// let color = ['red', 'blue', 'green', 'yellow'];
+// let randomColor = color[Math.floor(Math.random() * color.length)];
+// document.write(randomColor);
 
-11 Nov 2024  Monday
+// 11 Nov 2024  Monday
 
 //  Password Generater
 
@@ -305,7 +413,7 @@ document.write(randomColor);
 // document.write("Your Password is  : " + password + "<br>" )
 
 
-13 nov 2024
+// 13 nov 2024
 
 // Password Generater
 // let password = '';
@@ -380,177 +488,177 @@ document.write(randomColor);
 // console.log(hexNumber); // Output: 26
 
 
-15 Nov 2024 Friday 
-//  Convert String into Number
+// 15 Nov 2024 Friday 
+// //  Convert String into Number
 
-let num = "134";
-console.log(num + 2); //output 1342
-console.log(Number(num) + 2); // output 136
-
-
-console.log(Number(false)); // 0
-console.log(Number(true)); // 1
-console.log(Number()) ;//0
-console.log(Number("123ab")); //NAN
-console.log(Number("123")); //123
+// let num = "134";
+// console.log(num + 2); //output 1342
+// console.log(Number(num) + 2); // output 136
 
 
- // parse Float
-let num1 = parseFloat("10.33");
-console.log(num1);  // 10.33
-
-let num2 = parseFloat("34 45 66");
-console.log(num2); // 34
-
-let num6 = parseFloat("He was 40");
-console.log(num6); //NAN
+// console.log(Number(false)); // 0
+// console.log(Number(true)); // 1
+// console.log(Number()) ;//0
+// console.log(Number("123ab")); //NAN
+// console.log(Number("123")); //123
 
 
-//praseInt
- let num3 = parseInt("10.00");
- console.log(num3); // 10
+//  // parse Float
+// let num1 = parseFloat("10.33");
+// console.log(num1);  // 10.33
 
-let num4 = parseInt("34 45 66");
-console.log(num4); // 34
+// let num2 = parseFloat("34 45 66");
+// console.log(num2); // 34
 
-
-let num5 =parseInt("He was 40");
-console.log(num5); //NAN
-
-
-// To Fixed 
-let decimal = 45.5678;
-console.log(decimal); //45.5678
-console.log(decimal.toFixed()); //46
-console.log(decimal.toFixed(2)); //45.56
+// let num6 = parseFloat("He was 40");
+// console.log(num6); //NAN
 
 
-18 Nov 2024 Monday
+// //praseInt
+//  let num3 = parseInt("10.00");
+//  console.log(num3); // 10
 
-//  Current Date
-let date = new Date();
-console.log(date);
-
-// Get Day
-let day = new Date();
-console.log(day.getDay());  
-
-//  Get Date
-let date1 = new Date();
-console.log(date1.getDate());
-
-//  Get Date
-let dayName = ["Sun" , " Mon" , 'Tues' , " thurs" , 'fri' , ' satur'];
-let now = new Date().getDay(); 
-console.log(dayName[now]);
+// let num4 = parseInt("34 45 66");
+// console.log(num4); // 34
 
 
-// Random color Genater
-
-let color = ['red' , 'blue' , 'green'];
-let background = " ";
-for (let i = 0; i < 1; i++) {
-  background += color[Math.floor(Math.random() * color.length)];
-}
-document.body.style.backgroundColor = background;
+// let num5 =parseInt("He was 40");
+// console.log(num5); //NAN
 
 
-// Random color Genater
-let colors = ['pink', 'skyblue', 'purple'];
-let randomColor = colors[Math.floor(Math.random() * colors.length)];
-document.body.style.backgroundColor = randomColor;
+// // To Fixed 
+// let decimal = 45.5678;
+// console.log(decimal); //45.5678
+// console.log(decimal.toFixed()); //46
+// console.log(decimal.toFixed(2)); //45.56
 
 
+// 18 Nov 2024 Monday
+
+// //  Current Date
+// let date = new Date();
+// console.log(date);
+
+// // Get Day
+// let day = new Date();
+// console.log(day.getDay());  
+
+// //  Get Date
+// let date1 = new Date();
+// console.log(date1.getDate());
+
+// //  Get Date
+// let dayName = ["Sun" , " Mon" , 'Tues' , " thurs" , 'fri' , ' satur'];
+// let now = new Date().getDay(); 
+// console.log(dayName[now]);
 
 
-// 27 nov 2024 wednesday
+// // Random color Genater
 
-Function
-
-function sayHello(){
-document.write("Hello World");
-}
-
-sayHello();
-
-function add (sum1 , sum2 ) {
-    return sum1 + sum2
-
-}
-document.write(add(6 ,  6));
+// let color = ['red' , 'blue' , 'green'];
+// let background = " ";
+// for (let i = 0; i < 1; i++) {
+//   background += color[Math.floor(Math.random() * color.length)];
+// }
+// document.body.style.backgroundColor = background;
 
 
-function table(num) {
-    for (let i = 1; i <= 10; i++) {
-        document.write(num + " x " + i + " = " + (num * i) + "<br>");
-    }
-}
-
-table(5);
-
-//  29 Nov 2024 Friday
-//  Local Variable
-function myFunction() {
-    let localVariable = "I'm local!";
-    console.log(localVariable); // Output: "I'm local!"
-  }
+// // Random color Genater
+// let colors = ['pink', 'skyblue', 'purple'];
+// let randomColor = colors[Math.floor(Math.random() * colors.length)];
+// document.body.style.backgroundColor = randomColor;
 
 
 
-//  Global Varible
-  let globalVariable = "I'm global!";
-  function myFunction() {
-    console.log(globalVariable); // Output: "I'm global!"
-  }
-  console.log(globalVariable); // Output: "I'm global!"
+
+// // 27 nov 2024 wednesday
+
+// Function
+
+// function sayHello(){
+// document.write("Hello World");
+// }
+
+// sayHello();
+
+// function add (sum1 , sum2 ) {
+//     return sum1 + sum2
+
+// }
+// document.write(add(6 ,  6));
+
+
+// function table(num) {
+//     for (let i = 1; i <= 10; i++) {
+//         document.write(num + " x " + i + " = " + (num * i) + "<br>");
+//     }
+// }
+
+// table(5);
+
+// //  29 Nov 2024 Friday
+// //  Local Variable
+// function myFunction() {
+//     let localVariable = "I'm local!";
+//     console.log(localVariable); // Output: "I'm local!"
+//   }
 
 
 
-// switch Case
-switch (new Date().getDay()) {
-    case 1:
-        document.write("Monday");
-        break;
-        case 2:
-            document.write("Tuesday");
-            break;
-            case 3:
-                document.write("Wednesday");
-                break;
-                case 4:
-                    document.write("Thursday");
-                    break;
-                    case 5:
-                        document.write("Friday");
-                        break;
-                        case 6:
-                            document.write("Saturday");
-                            break;
-                            case 0:
-                                document.write("Sunday");
-                                break;
-
-    default:
-        document.write("Invalid Day")
-        break;
-}
+// //  Global Varible
+//   let globalVariable = "I'm global!";
+//   function myFunction() {
+//     console.log(globalVariable); // Output: "I'm global!"
+//   }
+//   console.log(globalVariable); // Output: "I'm global!"
 
 
-let favFood = prompt("Enter Your Fav Food \n ,\n ,fast food \n Veggies \n Fruit" )
-switch (favFood) {
-    case 1:
-        document.write("Fast Food ")
-        break;
-        case 2:
-            document.write("Veggies")
-            break;
-            case 3:
-                document.write("Fruite")
-                break;
 
-    default:
-        break;
-}
+// // switch Case
+// switch (new Date().getDay()) {
+//     case 1:
+//         document.write("Monday");
+//         break;
+//         case 2:
+//             document.write("Tuesday");
+//             break;
+//             case 3:
+//                 document.write("Wednesday");
+//                 break;
+//                 case 4:
+//                     document.write("Thursday");
+//                     break;
+//                     case 5:
+//                         document.write("Friday");
+//                         break;
+//                         case 6:
+//                             document.write("Saturday");
+//                             break;
+//                             case 0:
+//                                 document.write("Sunday");
+//                                 break;
+
+//     default:
+//         document.write("Invalid Day")
+//         break;
+// }
+
+
+// let favFood = prompt("Enter Your Fav Food \n ,\n ,fast food \n Veggies \n Fruit" )
+// switch (favFood) {
+//     case 1:
+//         document.write("Fast Food ")
+//         break;
+//         case 2:
+//             document.write("Veggies")
+//             break;
+//             case 3:
+//                 document.write("Fruite")
+//                 break;
+
+//     default:
+//         break;
+// }
 
 
 
