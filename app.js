@@ -1,3 +1,59 @@
+//  LOOP
+// for( let a=0; a<=10; a++){
+//     document.write("hanadi", "<br/>")
+// }
+
+// for( let a=0; a<=20; a++){
+//     if(a%2==0){
+// console.log(a, " The number is even");
+// }
+
+// else{
+//     console.log("The number is odd");
+// }
+// }
+
+
+// for( let a=200; a>=0; a--){
+//     if(a%2==0){
+//         console.log(a, " The number is even");
+//     }
+//         else{
+//             console.log(a, "The number is odd");
+// }
+// }
+
+
+// for( let a=1; a<=10; a++){
+// console.log(a**3);
+// }
+
+
+// let a= confirm("Are you sure ?");
+// document.write(a);
+
+// let Course = prompt("Enter your course name");
+// let Campus = prompt("Enter your campus name");
+
+// if(Course == "web and app development" || Course == "WMA"){
+//   if (Campus == "numaish"  || Campus == "Numaish"){
+//   confirm("Congratulations ! You are enrolled for this course");
+//   }}
+
+
+// let  course = prompt("Enter your Course name!");
+// let  camp = prompt("Enter your Campus!");
+
+// if (course=="web and app Development"|| course=="WMA") {
+//     if(camp =="Numaish" || camp =="numaish" ){
+//         confirm("congratsgulation !! you are enrolled in web and app development course")
+//     } 
+//
+
+
+
+
+
 // array
 // let arry =[1,2,3,4,5,6,7,8,9,10];
 // console.log(arry[0]);
