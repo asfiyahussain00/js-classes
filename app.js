@@ -286,26 +286,6 @@
 //  console.log(pet);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Nested Lopp
 
 // let firstName = [" Asfiya " ,"fizza " , "ayesha " , "amna " , "anaya "];
@@ -858,6 +838,35 @@
 //     default:
 //         break;
 // }
+
+// For Loop 
+for( let i = 0 ; i <= 4 ; i++){
+    document.write(i , "Asfiya");
+
+}
+
+// While Loop
+// let i = 0;
+// while( i <=4){
+//     document.write( i ,"asfiya");
+//     i++
+
+// }
+
+
+// // Do while
+// let j = 0;
+// do {
+//     document.write(j, "asfiya");
+//     j++;
+// } while (j <= 4);  
+
+
+
+
+
+
+
 
 
 
